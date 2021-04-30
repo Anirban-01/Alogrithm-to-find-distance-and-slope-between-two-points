@@ -1,0 +1,12 @@
+#Algorithm to find the slope and distance between two points.
+
+import math
+def slope(y2, y1, x2, x1):
+    my_slope=((y2-y1)/(x2-x1))
+    return(my_slope)
+def my_distance(x1, y1, x2, y2):
+    distance=math.sqrt((x2-x1)**2+(y2-y1)**2)
+    return(distance)
+    
+    slope(1,2,3,4)
+    my_distance(1,2,3,4)
